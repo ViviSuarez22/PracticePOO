@@ -8,10 +8,10 @@ public class Main {
         Estudiante alumno = new Estudiante("Andrea", 17, 11);
         alumno.estudiar();
 
-        CuentaBancaria transaccion1 = new CuentaBancaria(023567389, 500000, "Marcos Leal");
+        CuentaBancaria transaccion1 = new CuentaBancaria(23567, 500000, "Marcos Leal");
         transaccion1.depositar();
 
-        CuentaBancaria transaccion2 = new CuentaBancaria(023567389, 300000, "Marcos Leal");
+        CuentaBancaria transaccion2 = new CuentaBancaria(235967543, 300000, "Marcos Leal");
         transaccion2.retirar();
 
         Empleado colaborador = new Empleado("Blanca", "Ingeniera", 2500000);
